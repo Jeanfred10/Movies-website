@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Movies and Song website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+ 
+</head>
+<body>
+    
+    <!--Navbar-->
+    <header>
+        <a href="#home" class="logo">
+            <i class='bx bxs-movie-play'></i> JeanF.Tech Show
+        </a>
+        <div class='bx bx-menu' id="menu-icon" onclick="toggleNavbar()"></div>
+        <!--menu-->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#songs">Songs</a></li>
+            <li><a href="#Newsletter">Newsletter</a></li>
+        </ul>
+        <a href="Login.html" class="btn">Login</a>
+
+
+    </header>
+   
+    
+    <section class="home swiper" id="home">
+        <video src="video/The Flash.mp4" autoplay muted></video>
+        
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide container">
+                <img src="asset/shark khan.jpg" alt="">
+                <div class="home-text">
+                    <span>Yash-Films</span>
+                    <h1>PATHAAN</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="asset/the flash.jpeg" alt="">
+                <div class="home-text">
+                    <h1>Viking <br> Season 1</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide container">
+                <img src="asset/bigmind.jpg" alt="">
+                <div class="home-text">
+                    <h1> BIGMIND </h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide container">
+                <img src="asset/salman.jpg" alt="">
+                <div class="home-text">
+                    <span>Yash-Films</span>
+                    <h1>KYON Ki </h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide container">
+                <img src="asset/avenges.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvels studio</span>
+                    <h1>  Avengers<br>The Infinity war</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="asset/P-Sava-2.jpg" alt="">
+                <div class="home-text">
+                    <span>----</span>
+                    <h1>PAPA SAVA<br> Season 5</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide container">
+                <img src="asset/spider.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvels  Studio</span>
+                    <h1>Spider man  <br>No Way Home <br> Season 5</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+         
+            <div class="swiper-slide container">
+                <img src="asset/guiardian.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvel studio</span>
+                    <h1>GUARDIANS of the galaxy <br>VOL.3</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide container">
+                <img src="asset/jack.jpeg" alt="">
+                <div class="home-text">
+                    <span>Rakuten TV</span>
+                    <h1>Jack the giant slayer</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="Play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+          
+        
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+<!--movies--> 
+<div class="movies" id="movies">   
+  <h2 class="heading">Opening this week</h2>  
+ <div class="movies-container">
+    <!--box-1-->
+    <div class="box">
+      <div class="box-img">
+        <img src="asset/viking.jpg" alt="">
+    
+      </div>
+    <h3>Viking valhalla s1</h3>
+    <span>ACTION Movie</span>
+    </div>
+     <!--box-2-->
+     <div class="box">
+        <div class="box-img">
+          <img src="asset/sword.jpg" alt="">
+      
+        </div>
+      <h3>Swordsman</h3>
+      <span>Serie</span>
+      </div>
+       <!--box-3-->
+    <div class="box">
+        <div class="box-img">
+          <img src="asset/kuchi.jpg" alt="">
+      
+        </div>
+      <h3>Kuchi kuchi Hotai </h3>
+      <span>190min | Drama</span>
+      </div>
+       <!--box-4-->
+    <div class="box">
+        <div class="box-img">
+          <img src="asset/expandables.jpg" alt="">
+      
+        </div>
+      <h3>Expendables 4</h3>
+      <span>140min | ACTION Movie</span>
+      </div>
+       <!--box-5-->
+    <div class="box">
+        <div class="box-img">
+          <img src="asset/viking.jpg" alt="">
+      
+        </div>
+      <h3>Viking valhalla s1</h3>
+      <span>ACTION Movie</span>
+      </div>
+       <!--box-6-->
+    <div class="box">
+        <div class="box-img">
+          <img src="asset/student.jpg" alt="">
+      
+        </div>
+      <h3>Student of YEAR</h3>
+      <span>180min | comedy,action movie</span>
+      </div>
+       <!--box-7-->
+    <div class="box">
+        <div class="box-img">
+          <img src="asset/yong.jpg" alt="">
+      
+        </div>
+      <h3>Yong Pal</h3>
+      <span>Serie</span>
+      </div>
+       <!--box-8-->
+    <div class="box">
+        <div class="box-img">
+          <img src="asset/avatar.jpg" alt="">
+      
+        </div>
+      <h3>The last Air bender <br>Avatar</h3>
+      <span>90min | ACTION Movie</span>
+      </div>
+       <!--box-9-->
+    <div class="box">
+        <div class="box-img">
+          <img src="asset/legend.jpg" alt="">
+      
+        </div>
+      <h3>Hero is born</h3>
+      <span>129min | ACTION Movie</span>
+      </div>
+       <!--box-1-->
+       <div class="box">
+        <div class="box-img">
+          <img src="asset/tiger.jpg" alt="">
+      
+        </div>
+      <h3>TiGER zinda hai</h3>
+      <span>129min | ACTION Movie</span>
+      
+    </div>
+ </div>
+</div>
+
+<!--song-->
+<section class="song" id="song">
+    <h2 class="heading">Latest songs </h2>
+
+    <div class="song-container swiper">
+        <div class="swiper-wrapper">
+            <!--box-1-->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/alan wal.jpg" alt="">
+                </div>
+                <h3>Ritual-Alan walker</h3>
+            </div>
+             <!--box-2-->
+             <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/guertta.jpg" alt="">
+                </div>
+                <h3>For you-David guetta ft zara larsson</h3>
+            </div>
+             <!--box-3-->
+             <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/Drake.jpg" alt="">
+                </div>
+                <h3>God's plan-Drake</h3>
+            </div>
+             <!--box-4-->
+             <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/swift.jpg" alt="">
+                </div>
+                <h3>Anti-hero -Taylor swift</h3>
+            </div>
+             <!--box-5-->
+             <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/gims-and-dadju-1200x750.jpg" alt="">
+                </div>
+                <h3>Belle-Gims ft Dadju</h3>
+            </div>
+             <!--box-6-->
+             <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/anukriti.jpg" alt="">
+                </div>
+                <h3>Un poco loco -Anukriti</h3>
+            </div>
+             <!--box-7-->
+             <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/the ben.jpg" alt="">
+                </div>
+                <h3>WHY-the ben ft Diamond</h3>
+            </div>
+             <!--box-8-->
+             <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/derrik.jpg" alt="">
+                </div>
+                <h3>Nshuti-Don Derrik</h3>
+            </div>
+             <!--box-1-->
+             <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="asset/song/Screenshot (5).png" alt="">
+                </div>
+                <h3>Tubirenge-Meip ft candle</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Newsletter-->
+<section class="Newsletter" id="Newsletter">
+    <h2>Subscribe To Get <br>Newsletter</h2>
+    <form action="">
+        <input type="text" class="email" placeholder="Enter Email" Required>
+        <input type="text" value="Subscribe" class="btn">
+    </form>
+</section>
+  <section class="footer">
+    <a href="" class="logo">
+        <i class="bx bxs-movie"></i>JeanF-Tech Show
+    </a>
+    <div class="social">
+        <i class='bx bxl-facebook-circle'></i>
+        <i class='bx bxl-twitter' ></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-whatsapp' ></i>
+        <i class='bx bxl-telegram' ></i>
+        <i class='bx bx-envelope' ></i>
+    </div>
+  </section>
+  <div class="copyright">
+    <p>&#169; JeanF-Tech All Right Reserved</p>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
